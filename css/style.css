@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cnt {
+    font-family: 'Lora', serif;
+}
+
+.btn {
+    margin-left: 100px;
+}
+
+
+.cont-1 {
+    /* background-color:skyblue; */
+    background-image: url('../image/home-banner-bg1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* responsive */
+
+@media (max-width:768px) {
+    .cont-1 .col-lg-6 {
+        display: none;
+    }
+}
